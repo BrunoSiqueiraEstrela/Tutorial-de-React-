@@ -1,10 +1,26 @@
 .App {
-  text-align: center;
+  min-height: 100vh;
+  background: rgb(74, 135, 155);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.tweet {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: lightpink;
 }
 
 @media (prefers-reduced-motion: no-preference) {
